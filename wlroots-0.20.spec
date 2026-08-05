@@ -24,11 +24,12 @@ BuildRequires:  pkgconfig(libdrm) >= 2.4.129
 BuildRequires:  pkgconfig(gbm) >= 17.1.0
 BuildRequires:  pkgconfig(libinput) >= 1.14.0
 BuildRequires:  pkgconfig(xkbcommon) >= 1.8.0
-BuildRequires:  pkgconfig(pixman-1) >= 0.43.0
+BuildRequires:  pkgconfig(pixman-1) >= 0.46.0
 BuildRequires:  pkgconfig(libdisplay-info)
 BuildRequires: pkgconfig(libliftoff)
 BuildRequires:  pkgconfig(xcb)
 BuildRequires:  pkgconfig(xcb-render)
+BuildRequires:  pkgconfig(lcms2)
 
 %description
 Modular Wayland compositor library.
