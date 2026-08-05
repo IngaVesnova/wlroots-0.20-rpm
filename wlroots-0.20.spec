@@ -27,6 +27,7 @@ BuildRequires:  pkgconfig(xkbcommon) >= 1.8.0
 BuildRequires:  pkgconfig(pixman-1) >= 0.46.0
 BuildRequires:  pkgconfig(libdisplay-info)
 BuildRequires: pkgconfig(libliftoff)
+BuildRequires:  pkgconfig(xwayland)
 BuildRequires:  pkgconfig(xcb)
 BuildRequires:  pkgconfig(xcb-render)
 BuildRequires: pkgconfig(xcb-renderutil)
