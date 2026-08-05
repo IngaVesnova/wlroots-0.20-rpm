@@ -29,6 +29,7 @@ BuildRequires:  pkgconfig(libdisplay-info)
 BuildRequires: pkgconfig(libliftoff)
 BuildRequires:  pkgconfig(xcb)
 BuildRequires:  pkgconfig(xcb-render)
+BuildRequires: pkgconfig(xcb-renderutil)
 BuildRequires:  pkgconfig(lcms2)
 
 %description
