@@ -28,9 +28,20 @@ BuildRequires:  pkgconfig(pixman-1) >= 0.46.0
 BuildRequires:  pkgconfig(libdisplay-info)
 BuildRequires: pkgconfig(libliftoff)
 BuildRequires:  pkgconfig(xwayland)
+BuildRequires:  pkgconfig(x11-xcb)
 BuildRequires:  pkgconfig(xcb)
+BuildRequires:  pkgconfig(xcb-composite)
+BuildRequires:  pkgconfig(xcb-dri3)
+BuildRequires:  pkgconfig(xcb-errors)
+BuildRequires:  pkgconfig(xcb-ewmh)
+BuildRequires:  pkgconfig(xcb-icccm)
+BuildRequires:  pkgconfig(xcb-present)
 BuildRequires:  pkgconfig(xcb-render)
-BuildRequires: pkgconfig(xcb-renderutil)
+BuildRequires:  pkgconfig(xcb-renderutil)
+BuildRequires:  pkgconfig(xcb-res)
+BuildRequires:  pkgconfig(xcb-shm)
+BuildRequires:  pkgconfig(xcb-xfixes) >= 1.15
+BuildRequires:  pkgconfig(xcb-xinput)
 BuildRequires:  pkgconfig(lcms2)
 
 %description
