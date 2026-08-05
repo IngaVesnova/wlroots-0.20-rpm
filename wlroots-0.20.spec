@@ -47,7 +47,7 @@ Development files for %{name}.
 %meson \
   -Dxwayland=enabled \
   -Dexamples=false \
-  -Dvulkan=disabled
+  -Dvulkan-renderer=disabled
 
 %meson_build
 
